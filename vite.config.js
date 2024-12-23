@@ -6,6 +6,6 @@ export default defineConfig({
   build: {
     outDir: "build", // This makes sure Vite outputs to the 'build' folder
   },
-  base: "/react-routing/", // Add this line
+  base: "/quiz-app-react/", // Add this line
   plugins: [react()],
 });
